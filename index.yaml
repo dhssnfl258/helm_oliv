@@ -3,7 +3,7 @@ entries:
   nginxstd:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-21T11:48:02.6154253+09:00"
+    created: "2023-07-21T12:29:40.9231804+09:00"
     description: nginx standard for OliveNetworks
     digest: d7b81cce7633daf54467745f1b026729c57b15248187532cf760e60314a131b6
     name: nginxstd
@@ -11,4 +11,25 @@ entries:
     urls:
     - nginxstd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-21T11:48:02.613826+09:00"
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.7
+    created: "2023-07-21T12:29:40.9253726+09:00"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: 1bd7372252aaead6d411e3286b16b7c2c8b6b402c409f0f815caf60bd2a857af
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-10.5.7.tgz
+    version: 10.5.7
+generated: "2023-07-21T12:29:40.922642+09:00"
